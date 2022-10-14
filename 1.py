@@ -1,10 +1,5 @@
-name = "Denis"
-second_name = "Kikeev"
-year = 2004
-
-print(name, second_name, year)
-
-name, second_name = second_name, name
-year += 60
-
-print(name, second_name, year)
+name = input ("Введите имя: ")
+second_name =input("Введите фамилию: ")
+year = int(input("Введите год рождения: "))
+print (name+"_"+second_name+"_"+str(year))
+print (second_name+"_"+name+"_"+str(year+60))
